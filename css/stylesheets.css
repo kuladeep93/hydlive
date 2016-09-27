@@ -7,7 +7,7 @@ a:hover,a:focus,a:active{text-decoration: none;}
 /*              ******common css*****************/
 
 body{
-    background-color: #cecccd;
+    background: #cecccd url('../images/hdaderimg3.jpg') no-repeat;
 }
 
 
@@ -66,4 +66,22 @@ body{
 .data-section h4{
     font-weight: bold;
     
+}
+#organisers img{
+    width: 100%;
+}
+#organisers .headder-item h3{
+    text-align: center;
+}
+#footer{
+    background-color: #e3e3e3;
+    color: #aba3b6;
+}
+#footer ul{
+    list-style: none;
+    padding-left: 10px;
+    border-right: 1px dotted #d3d3d3;
+}
+#copyrights{
+    text-align: center;
 }
