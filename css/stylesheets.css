@@ -4,13 +4,11 @@
 a:hover,a:focus,a:active{text-decoration: none;}
 
 
-/*              ******common css*****************/
+/*******************common css*****************/
 
 body{
     background: #cecccd url('../images/hdaderimg3.jpg') no-repeat;
 }
-
-
 /******************header section***********************/
 
 #header{
@@ -51,7 +49,10 @@ body{
     margin-top: 0;
     padding: 10px;
 }
-
+marquee{
+    color: #612079;
+    font-weight: bold;
+}
 .headder-item{
     background-color: #612079;
     border-radius: 6px;
@@ -76,6 +77,7 @@ body{
 #footer{
     background-color: #e3e3e3;
     color: #aba3b6;
+    padding-left: 10px;
 }
 #footer ul{
     list-style: none;
@@ -84,4 +86,15 @@ body{
 }
 #copyrights{
     text-align: center;
+    padding: 20px 0;
+}
+
+/************************course directors section***********************/
+#course-directors h3{
+    color: #612079;
+}
+#course-directors img{
+    padding-left: 10%;
+    width: 80%;
+    padding-top: 24px;
 }
