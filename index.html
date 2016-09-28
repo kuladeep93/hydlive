@@ -11,6 +11,7 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="favicon.ico"/>
         <link rel="stylesheet" href="css/assests/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/assests/slick.css"/>
         <link rel="stylesheet" href="css/stylesheets.css"/>
     </head>
     <body>
@@ -31,11 +32,6 @@ and open the template in the editor.
                 </ul>
             </div>
             <div id="main-section">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <marquee>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pharetra diam eget dui commodo tempus. </marquee>
-                    </div>
-                </div>
                 <div class="row">
                     <div class="col-md-9">
                         <div class="row data-section">
@@ -133,13 +129,19 @@ and open the template in the editor.
                         </div>
                     </div>
                     <div class="col-md-3" id="course-directors">
+                        <div class="container-fluid">
+                            <h3>Latest News</h3>
+                            <marquee direction="up" scrolldelay="300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pharetra diam eget dui commodo tempus. <br></marquee>
+                        </div>
                         <h3>Course Directors</h3>
-                        <img src="images/1.png"/>
-                        <img src="images/2.png"/>
-                        <img src="images/3.png"/>
-                        <img src="images/4.png"/>
-                        <img src="images/5.png"/>
-                        <img src="images/6.png"/>
+                        <div class="slider-img">
+                            <div><img src="images/1.png"/></div>
+                            <div> <img src="images/2.png"/></div>
+                            <div> <img src="images/3.png"/></div>
+                            <div> <img src="images/4.png"/></div>
+                            <div><img src="images/5.png"/></div>
+                            <div><img src="images/6.png"/></div>
+                        </div>
                     </div>
                 </div>
                 <div class="row" id="organisers">
@@ -209,6 +211,7 @@ and open the template in the editor.
 
         <script src="js/assests/jquery-2.2.3.min.js"></script>
         <script src="js/assests/bootstrap.min.js"></script>
+        <script src="js/assests/slick.min.js"></script>
         <script src="js/stylesheets.js"></script>
     </body>
 </html>
