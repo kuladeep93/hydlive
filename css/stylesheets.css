@@ -6,22 +6,33 @@ a:hover,a:focus,a:active{text-decoration: none;}
 
 /*******************common css*****************/
 
-body{
+#body-section{
     background: #cecccd url('../images/hdaderimg3.jpg') no-repeat;
+    padding-top: 300px;
+    margin-top: -5px;
 }
 /******************header section***********************/
 
-#header{
-    height: 300px;
+#header-section{
     display: inline-block;
+    background: url('../images/bg_1.gif');
+    width: 100%;
 }
-#header img{
-    float: left;
-    padding: 20px 30px;
+.media-object{
+    padding: 20px;
 }
-#header h1{
-    float: right
+.media-body{
+    color: #fff;
+    font-size: 20px;
 }
+.media-body h3{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.media-body{
+    text-align: center;
+}
+
 #navbar-section{
     background-color: #7b7a7b;
 }
@@ -36,10 +47,10 @@ body{
     font-size: 15px;
 }
 #navbar-section ul li:hover{
-    background-color: #612079;
+    background-color: #F44336;
 }
 #navbar-section ul li a{
-      color: #fff;
+    color: #fff;
 }
 
 
@@ -50,11 +61,12 @@ body{
     padding: 10px;
 }
 marquee{
-    color: #612079;
+    color: #F44336;
     font-weight: bold;
+    height: 170px;
 }
 .headder-item{
-    background-color: #612079;
+    background-color: #F44336;
     border-radius: 6px;
     color: #fff;
 }
@@ -66,10 +78,11 @@ marquee{
 }
 .data-section h4{
     font-weight: bold;
-    
+
 }
 #organisers img{
-    width: 100%;
+    width: 60%;
+    padding-left: 20%;
 }
 #organisers .headder-item h3{
     text-align: center;
@@ -91,7 +104,7 @@ marquee{
 
 /************************course directors section***********************/
 #course-directors h3{
-    color: #612079;
+    color: #F44336;
 }
 #course-directors img{
     padding-left: 10%;
